@@ -1,0 +1,160 @@
+.project {
+  padding-top: 10px;
+  margin-left: 115px;
+  width: 96%;
+}
+
+.project hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.project h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+#ads {
+  margin: 30px 0px 30px 0px;
+  width: 100%;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  background-color: #f29f67;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.project .card img {
+  height: 150px;
+  width: 100%;
+}
+
+.card-detail-badge {
+  background-color: #e0b50f;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.card-img-overlay {
+  font-size: 20px;
+}
+
+span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.project .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.9px 2.9px 3.6px;
+  transition: all 1s ease;
+}
+
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #138781;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  /* margin: 20px auto 20 auto; */
+  overflow: hidden;
+  position: relative;
+  margin-left: 75px;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: #138781;
+  background: transparent;
+  border: solid #138781;
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.9px 2.9px 3.6px;
+}
+
+/* =============DARK MODE================ */
+
+#dark .project {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* =========Responsiveness============= */
+
+@media (max-width: 1115px) {
+  .project {
+    width: 83%;
+    margin-left: 165px;
+  }
+  .ad-btn {
+    width: 80px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 990px) {
+  .project {
+    width: 83%;
+    margin-left: 165px;
+  }
+  .ad-btn {
+    width: 80px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 770px) {
+  .project {
+    width: 90%;
+    margin-left: 110px;
+  }
+  .ad-btn {
+    width: 100px;
+    margin-left: 140px;
+  }
+  .project hr {
+    width: 300px;
+  }
+  .align {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .project .rounded {
+    margin-top: 50px;
+  }
+  .project hr {
+    width: 280px;
+  }
+  .ad-btn {
+    width: 40%;
+    margin-left: 30%;
+  }
+}

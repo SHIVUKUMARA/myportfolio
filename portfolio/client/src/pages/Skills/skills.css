@@ -1,0 +1,113 @@
+.techstack {
+  width: 79vw;
+  margin-top: 20px;
+  margin-left: 123px;
+}
+
+.techstack hr {
+  color: #138781;
+  width: 20%;
+  margin: 10px;
+  margin-left: 420px;
+}
+
+.techstack h2 {
+  font-weight: bold;
+  color: #138781;
+  padding-left: 0px;
+}
+
+.techstack .card {
+  cursor: pointer;
+}
+
+.techstack .tech-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.techstack .card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: #138781;
+  color: white;
+  border: none;
+  transition: 1s;
+  transform: scale(1.1);
+  /* Corrected scale property */
+}
+
+/* =============Responsiveness================ */
+
+@media (max-width: 1200px) {
+  .techstack {
+    padding-left: 10px;
+  }
+
+  .techstack hr {
+    margin-left: 10px;
+  }
+
+  .techstack h2 {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .techstack {
+    padding-left: 10px;
+    margin-left: 180px;
+    width: 83%;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
+  .techstack hr {
+    width: 20%;
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 990px) {
+  .techstack {
+    margin-left: 140px;
+    width: 90%;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  .techstack hr {
+    width: 20%;
+    margin-left: 245px;
+  }
+}
+
+@media (max-width: 770px) {
+  .techstack {
+    margin-left: 110px;
+    width: 90%;
+  }
+  .techstack hr {
+    width: 30%;
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .techstack {
+    margin: 0;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 100%;
+  }
+
+  .techstack hr {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .techstack h2 {
+    padding-left: 10px;
+  }
+}

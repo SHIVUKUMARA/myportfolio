@@ -1,0 +1,82 @@
+.education {
+  margin: 50px 20px 50px 125px;
+  width: 96%;
+  background-color: #f2ffe9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.education hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.education h2 {
+  padding-top: 10px;
+  font-weight: bold;
+  color: #138781;
+}
+
+.education .vertical-timeline-element-title {
+  color: #138781;
+}
+
+.education .vertical-timeline-element-subtitle {
+  color: #1e1e2c;
+}
+
+/* =============DARK MODE================ */
+
+#dark .education {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* =========Responsiveness============= */
+
+@media (max-width: 1115px) {
+  .education {
+    width: 80%;
+    margin: 50px 0px 0px 0px;
+    padding: 20px;
+    margin-left: 190px;
+  }
+
+  .education hr {
+    width: 80%;
+  }
+}
+
+@media (max-width: 990px) {
+  .education {
+    width: 90%;
+    margin-left: 140px;
+  }
+}
+
+@media (max-width: 840px) {
+  .education {
+    width: 85%;
+    margin-left: 130px;
+  }
+
+  .education h2 {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .education {
+    margin: 50px 0px 0px 0px;
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .education h2 {
+    padding-top: 20px;
+  }
+  .education hr {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}
