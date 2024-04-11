@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee118d4a.css",
+    "main.js": "/static/js/main.5c6d7fca.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/Shivukumara_Resume.pdf": "/static/media/Shivukumara_Resume.2a640f6cf7f97e7fe596.pdf",
+    "static/media/profile.png": "/static/media/profile.c722c846408e85d364a8.png",
+    "index.html": "/index.html",
+    "main.ee118d4a.css.map": "/static/css/main.ee118d4a.css.map",
+    "main.5c6d7fca.js.map": "/static/js/main.5c6d7fca.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee118d4a.css",
+    "static/js/main.5c6d7fca.js"
+  ]
+}
